@@ -20,18 +20,21 @@ font-family: 'Work Sans', sans-serif;
 
 /*FORMATAÇÕES GERAIS*/
 body {
-    width: 1440px;
-    height: 780px;
+    width: 100%;
     background-color: var(--body-bg-color);
 }
 
 /*FORMATAÇÃO LOGO*/
-#logo img{
+header{
     width: 389px;
     height: 94px;
     margin-top: 50px;
     margin-bottom: 92px;
     margin-left: 30px;
+}
+#logo img{
+    width: 389px;
+    height: 94px;
 }
 
 /*FORMATAÇÃO CONTEÚDO*/
@@ -76,27 +79,68 @@ body {
     margin-left: 36px;
     display: block;
 }
-#email{
-    width: 798px;
+#form span{
+    width: 5px;
     height: 48px;
+    float: left;
+    margin-top: 17px;
     margin-left: 36px;
+    background-color: var(--title-color);
+}
+#email{
+    width: 500px;
+    height: 48px;
+    margin-top: 17px;
     display: inline;
+    border: none;
+    border-radius: 0;
+}
+::placeholder{
+    padding-left: 10px;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 14px;
+    color: var(--form-color);
+
 }
 button{
     width: 48px;
     height: 48px;
-    margin-top: 15px;
-    
+    float: right;
+    margin-top: 17px;
+    margin-right: 777px;
+    background-color: var(--bg-button-color);
+    border: none;
 }
 button img{
     width: 24px;
     height: 24px;
     display: inline;
 }
-#form p{
+
+/*FORMATAÇÃO LINK*/
+#link{
     margin-top: 50px;
     margin-left: 36px;
+    font-family: 'League Spartan', sans-serif;
     font-size: 14px;
     font-weight: bold;
     color: var(--bg-button-color);
 }
+#link a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+#link span {
+    float: right;
+    margin-top: -5px;
+    margin-right: 1172px;
+}
+#arrow{
+    filter: invert(40%) sepia(38%) saturate(4057%) hue-rotate(236deg) brightness(91%) contrast(98%);
+}
+#arrow:hover{
+    cursor: pointer;
+}
+
+/*FORMATAÇÃO IMAGEM*/
+
