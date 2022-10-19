@@ -15,5 +15,5 @@ Projeto criado através da plataforma Rocketseat na trilha Explorer.
 
 ## Tela Inicial 
 
-<img src="assets/img/rocketnews.png">
+<img src=".github/rocketnews.png">
 

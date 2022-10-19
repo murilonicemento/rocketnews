@@ -20,7 +20,7 @@ font-family: 'Work Sans', sans-serif;
 
 /*FORMATAÇÕES GERAIS*/
 body{
-    width: 100%;
+    height: 100vh;
     background-color: var(--body-bg-color);
     position: relative;
 }
